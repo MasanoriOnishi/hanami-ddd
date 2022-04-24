@@ -1,7 +1,11 @@
 class NewBook < Hanami::Entity
-  attr_accessor :id, :title, :author
-
-  def initialize(attributes = {})
-    @id, @title, @author = attributes.values_at(:id, :title, :author)
+  def self.create(id:, title:, author:, created_at: Time.now, updated_at: Time.now)
+    self.new(
+      id: id,
+      title: title,
+      author: author,
+      created_at: created_at,
+      updated_at: updated_at,
+    )
   end
 end
