@@ -14,19 +14,19 @@ HanamiでDDDやるときに注意するべき、エンティティとリポジ�
 
 ### 2. Build Hanami image
 
-`docker-compose build`
+`docker compose build`
 
 ### 3. Start Application
 
-`docker-compose up`
+`docker compose up`
 
 ### 4. Migrate DB
-`docker-compose run hanami bundle exec hanami db migrate` 
+`docker compose run hanami bundle exec hanami db migrate` 
 
 ## How to experiment
 
-### 1. Dive to hanami console
-`docker-compose run hanami bundle exec hanami c`
+### 1. Dive to Hanami console
+`docker compose run hanami bundle exec hanami c`
 
 ### 2. Run commands
 
