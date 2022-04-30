@@ -8,27 +8,27 @@ HanamiでDDDやるときに注意するべき、エンティティとリポジ�
 
 ## How to setup
 
-### Clone From Github
+### 1. Clone From Github
 
-`git clone git@`
+`git clone git@github.com:MasanoriOnishi/hanami-ddd.git`
 
-### Build Hanami image
+### 2. Build Hanami image
 
 `docker-compose build`
 
-### Start Application
+### 3. Start Application
 
 `docker-compose up`
 
-### Migrate DB
+### 4. Migrate DB
 `docker-compose run hanami bundle exec hanami db migrate` 
 
 ## How to experiment
 
-### Dive to hanami console
+### 1. Dive to hanami console
 `docker-compose run hanami bundle exec hanami c`
 
-### Run commands
+### 2. Run commands
 
 - Create invalid entity
 ```
