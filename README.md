@@ -2,6 +2,8 @@
 
 HanamiでDDDやるときに注意するべき、エンティティとリポジトリの使い方のサンプルコードを掲載しています。
 
+コードに関する解説記事は[こちら](https://zenn.dev/monarisa_masa/articles/5fa1522a258add)。
+
 ## Requirement
 * [Docker](https://www.docker.com)
 * [Docker-Compose](https://docs.docker.com/compose/)
